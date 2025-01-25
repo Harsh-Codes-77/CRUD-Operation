@@ -1,0 +1,141 @@
+h1 {
+    color: maroon;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.post {
+    background-color: antiquewhite;
+}
+
+.user {
+    font-style: italic;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field, .textarea-field {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+.textarea-field {
+    width: 97%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post-card {
+    background-color: rgb(213, 218, 217);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card a{
+    text-decoration: none;
+    color: #751818;
+}
+
+.post-card a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.post-card-1 {
+    background-color: rgb(213, 218, 217);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 560px;
+}
+
+.content {
+    color: #555;
+}
+
+.create-post-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: maroon;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.create-post-link:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+button {
+    padding: 10px;
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
